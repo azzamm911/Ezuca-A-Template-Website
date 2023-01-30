@@ -1,0 +1,63 @@
+.testimony-mobile-btn-wrapper, .testimony-profile-mobile-wrapper, .testimony-author-mobile-wrapper {
+    display: none !important;
+}
+
+.testimony-inner-wrapper {
+    width: 75% !important;
+}
+
+/* Responsive */
+@media only screen and (max-width: 375px){
+    .testimony-author-wrapper {
+        display: none !important;
+    }
+
+    .testimony-author-mobile-wrapper {
+        display: flex !important;
+    }
+
+    .testimony-main-quotes {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 425px){    
+    .testimony {
+        margin-top: 0 !important;
+        padding-top: 0 !important
+    }       
+
+    .testimony-author > p {
+        font-size: 18px !important;
+    }    
+}
+
+@media only screen and (max-width: 768px){
+
+    .testimony-profile-wrapper, .testimony-btn-wrapper {
+        display: none !important;
+    } 
+
+    .testimony-mobile-btn-wrapper, .testimony-profile-mobile-wrapper {
+        display: flex !important;
+    }    
+}
+
+@media only screen and (min-width: 768px){
+    .testimony-mobile-profile, .testimony-profile-mobile-image {
+        width: 175px !important;
+        height: 175px !important;
+    }
+
+    .testimony-inner-wrapper {
+        width: 100% !important;
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px){    
+    .testimony-inner-wrapper {
+        width: 75% !important;
+    }
+}

@@ -1,0 +1,112 @@
+.courses {
+    background-color: #F7F7F7;
+}
+
+.courses-card:hover {
+    box-shadow: 0px 5px 15px 1px #888888;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.card-author, .card-price {
+    color: #19C880;
+}
+
+.card-price {
+    font-size: 25px;
+}
+
+.courses-btn {
+    border: 1px solid #19C880 !important;
+}
+
+.courses-btn:hover {
+    background-color: #19C880;
+    color: white !important;
+}
+
+/* Responsive */
+@media only screen and (max-width: 375px){    
+    .card-body-top-wrapper > span, .card-date {
+        display: none !important;
+    }    
+}
+
+@media only screen and (max-width: 768px){
+    .courses-btn {
+        width: 100% !important;
+    }
+
+    .courses-header-list {
+        display: none !important;
+    } 
+
+    .courses-inner-wrapper {
+        width: 100% !important;
+        padding: 2rem !important;
+        margin-top: 0 !important;
+    }
+
+    .courses {
+        padding-top: 0 !important;
+    } 
+}
+
+@media only screen and (min-width: 768px){
+    .card-body-top-wrapper > span, .card-date {
+        display: none !important;
+    }    
+
+    .card-price {
+        font-size: 24px !important;
+    }
+
+    .card-text > svg {
+        height: 12px !important;
+        width: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .card-body-top-wrapper > span, .card-date {
+        display: block !important;
+    }    
+
+    .card-price {
+        font-size: 25px !important;
+    }   
+
+    .card-text > svg {
+        height: 16px !important;
+        width: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    .courses-inner-wrapper {
+        width: 100% !important;
+        padding: 2rem !important;
+        margin-top: 0 !important;
+    }    
+
+    .card-title {
+        height: 50px !important;        
+    }
+}
+
+@media only screen and (max-width: 1366px){    
+
+    .card-title {
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+    }
+
+    .card-date, .card-author {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+
+    }
+}
+

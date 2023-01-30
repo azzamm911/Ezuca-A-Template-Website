@@ -1,0 +1,64 @@
+.nav-link:hover {
+    color: #19C880;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media only screen and (max-width: 425px) {
+
+    .bottom-navbar-left>h1 {
+        margin-left: 0 !important;
+    }
+
+    .bottom-navbar-left>h1>a {
+        padding-left: 0 !important;
+    }
+
+    .bottom-navbar-right {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top-navbar {
+        padding: 0 !important;
+    }
+
+    .top-navbar-contact,
+    .top-navbar-action {
+        display: none !important;
+    }
+
+    .top-navbar-action-resp {
+        display: block !important;
+    }
+
+    .nav-item-account {
+        display: inline-block !important;
+    }
+
+    .bottom-navbar-right {
+        padding-right: 0 !important;
+    }
+
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .top-navbar {
+        padding: 0 !important;
+    }
+}
+
+/* Hide responsive top navbar */
+@media only screen and (min-width: 769px) {
+    .top-navbar-action-resp {
+        display: none !important;
+    }
+
+    .nav-item-account {
+        display: none !important;
+    }
+}

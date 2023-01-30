@@ -1,0 +1,32 @@
+.about-us-stats > h2, .btn-pause {
+    color: #19C880 !important;
+}
+
+.video-overlay {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px){
+    .about-us-inner-wrapper {
+        padding: 0 !important
+    }
+
+    .about-us {
+        padding: 1rem !important;
+        margin-top: 0 !important;
+    }
+
+    .about-us-inner-wrapper {
+        margin: 40px 0 40px 0 !important;
+    }    
+}
+
+@media only screen and (max-width: 768px){
+    .video-overlay {
+        display: none !important;
+    }
+
+    .about-us-inner-left {
+        width: 100% !important;
+    }
+}
